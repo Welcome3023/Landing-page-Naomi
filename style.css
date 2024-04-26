@@ -1,0 +1,275 @@
+/* Write some CSS below */
+body{
+    background-color:#c85103;
+    color: black;
+    font-size: 13px;
+    font-family: 'open sans';
+    padding: 0;
+}
+h1, h2, h3{
+    font-family: 'open sans';
+}
+
+h1{
+    font-size: 100px;
+}
+
+h2{
+    font-size: 34px;
+    text-align: center;
+    color: #ef5241;
+    padding-top: 50px;
+}
+
+h3{
+    font-size: 16px;
+    color: white
+}
+
+.banner{
+    background-image: url(images/cheveuxcrepus.jpg);
+    background-position: center;
+    background-size :cover;
+    color:white;
+    text-align: center;
+    margin: px;
+
+    padding: 10px 0;
+}
+
+.banner p{
+    color: white;
+}
+
+.btn-red{
+    background-color: black;
+    padding: 15px 25px;
+    color: white;
+    text-align: none;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: #ef5241;
+    color: beige;
+}
+#monbtn{
+    transition: 0.5s;
+    display: inline-block;
+}
+
+#monbtn :hover{
+    transform: translateY(5px);
+}
+
+#monbutton{
+    transition: 0.5s;
+    display: inline-block;
+}
+
+#monbutton:hover{
+    transform:translateY(5px)
+}
+
+.button-color{
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    padding: 15px 25px;
+    margin: 60px 60px;
+    font-family: 'open sans';
+    font-weight: 800;
+    text-decoration: none;
+    margin: 150px;
+    box-shadow: 10px 10px 0 #ac663e;
+    transition: 0.5s;
+    display: inline-block;
+}
+
+.banner p{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.section-white{
+    background-color: white;
+    color: blue;
+    margin: 50px 0;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.footer-container{
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+
+.cards{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 16px;
+}
+
+.card-white{
+    background-color: #a44f30;
+    box-shadow: 0 0 10px grey;
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 50px;
+
+}
+
+.card-white img {
+    border-radius: 4px;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    padding: 20px auto;
+    opacity: 100;
+}
+
+.card-white a{
+    padding: 5px 15px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    font-size: 18px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin-top: 100px;
+
+}
+
+
+.footer-column{
+    width: 33%;
+    float:left;
+}
+
+.footer-column h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-column p{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.footer-column ul{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px;
+}
+.list-inline{
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-inline li{
+    display: inline;
+}
+
+.list-inline li i {
+    font-size: 40px;
+    color: #a44f30;
+    margin: 0 5px;
+    letter-spacing: 30px;
+}
+
+#sub{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.inscription a{
+    margin-top: 30px;
+}
+
+#mescartes{
+    transition: 0.5;
+}
+
+#mescartes:hover{
+    transform: scale(1.5);
+}
+
+.section-white{
+    margin-top: 100px;
+    text-emphasis: center;
+}
+
+p{
+    color: black;
+    text-align: center;
+}
+
+.card-colour{
+    background-color: white;
+    box-shadow: 0 0 10px grey;
+    border-radius: 4px;
+    text-align: center;
+    border: 5px solid #a44f30;
+    margin-bottom: 50px;
+    width: auto;
+    height: 500px;
+    padding: 20px;
+    
+}
+
+.card-colour .container{
+    width: auto;
+    height: 100px;
+}
+.footer{
+    background-color: black;
+}
+
+@media (max-width: 950px){
+    .cards{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 16px;
+    }
+    .container{
+        width: 600px;
+    }
+}
+@media (max-width:600px){
+    .cards{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 16px;
+    }
+    .container{
+        width: 400px;
+    }
+}
